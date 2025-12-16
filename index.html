@@ -334,7 +334,7 @@
         <div class="controls">
           <div style="display:flex;flex-direction:column;width:100%">
             <label for="budget">
-              Celkový rozpočet (<span id="currencyLabel">CZK</span>)
+              Celkový rozpočet (<span id="currencyLabel">EUR</span>)
               <span class="chip">Od 5 výše</span>
             </label>
             <input id="budget" type="number" value="50" min="5" placeholder="Např.: 50">
@@ -367,7 +367,7 @@
       </div>
 
       <div class="footer">
-        <div>PatternX Predictor <span>v1.4.2</span> · Optimalizováno pro <span id="currencyFoot">CZK</span></div>
+        <div>PatternX Predictor <span>v1.4.2</span> · Optimalizováno pro <span id="currencyFoot">EUR</span></div>
         <div style="margin-top:2px;">Interní nástroj · Bez záruky výsledků.</div>
       </div>
 
@@ -378,7 +378,7 @@
 <script>
 (function(){
   // === Settings ===
-  const CURRENCY = "CZK";
+  const CURRENCY = "EUR";
   const BASELINE_BUDGET = 50;
   const MAX_SINGLE_SPIN_THRESHOLD = 15; // above => 1 spin
   const MIN_SPINS = 2;
